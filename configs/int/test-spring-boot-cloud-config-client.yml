@@ -1,0 +1,5 @@
+loaded-config: cloud-int-config
+spring:
+  profiles:
+    active:
+      - cloud2

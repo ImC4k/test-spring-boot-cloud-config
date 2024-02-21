@@ -1,0 +1,5 @@
+loaded-config: cloud-dev-config
+spring:
+  profiles:
+    active:
+      - cloud

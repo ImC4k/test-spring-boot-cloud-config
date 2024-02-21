@@ -1,0 +1,15 @@
+server:
+  port: 8100
+app-env: dev
+spring:
+  profiles:
+    active:
+      - native
+      - ${app-env}
+  config:
+    name: my-config-server
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations: file:///D:/Projects D/test-spring-boot-cloud-config/configs/${app-env}
