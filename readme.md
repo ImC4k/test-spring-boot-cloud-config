@@ -4,9 +4,9 @@
     ```yml
       cloud:
         config:
-        server:
-            native:
-            searchLocations: file:///D:/Projects D/test-spring-boot-cloud-config/configs/${app-env}
+            server:
+                native:
+                    searchLocations: file:///D:/Projects D/test-spring-boot-cloud-config/configs/${app-env}
     ```
 1. run service (default port 8100)
 1. check server start up: 
